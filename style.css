@@ -1,0 +1,59 @@
+.container1 {
+    width: 120vh;
+    height: 100vh;
+    background-image: url(imagenes/banner-idat.jpg);
+    background-color: rgb(77, 55, 55);
+    background-size: cover;
+    padding: 10px;
+    float: left;
+    display: flex;
+    flex: auto;
+    position: absolute;
+    opacity: 1;
+}
+
+.hero_imagenlogo {
+    position: absolute;
+    top: 40%;
+    left: 3rem;
+
+}
+
+.container2 {
+    background-color: #722AE9;
+    width: 60vh;
+    height: 100vh;
+    float: right;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.txtespero{
+    width: 300px;
+}
+
+
+
+input{
+    width: 400px;
+    height: 50px;
+    border: 2px solid transparent ;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+
+.btnclass{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 50px;
+    border: 2px solid transparent ;
+    border-radius: 20px;
+}
+
